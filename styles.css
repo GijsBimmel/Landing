@@ -28,6 +28,16 @@ body {
     flex-direction: column;
 }
 
+.logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    height: 100px;
+    width: auto;
+    z-index: 100;
+    pointer-events: none;
+}
+
 .background {
     position: absolute;
     top: 0;
@@ -36,7 +46,7 @@ body {
     height: 100%;
     pointer-events: none;
     z-index: 1;
-    background: linear-gradient(135deg, #203856 0%, #1a2d47 50%, #203856 100%);
+    background: linear-gradient(135deg, #506886 0%, #4e698e 50%, #394b61 100%);
     background-size: 200% 200%;
 }
 
